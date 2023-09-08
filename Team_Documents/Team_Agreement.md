@@ -19,11 +19,11 @@ Describe at least:
 
 *Eddie Ayala*
 
-*
+* Do my job with
 
 *Carlos Rojas*
 
-*
+* Documentation
 
 *David Siebert*
 
@@ -39,11 +39,11 @@ Describe at least:
 
 *Eddie Ayala*
 
-*
+* do my job
 
 *Carlos Rojas*
 
-*
+* documentation
 
 *David Siebert*
 
@@ -59,11 +59,11 @@ Describe at least:
 
 *Eddie Ayala*
 
-*
+* Technical Vocabulary
 
 *Carlos Rojas*
 
-*
+* Problem Solving
 
 *David Siebert*
 
@@ -79,11 +79,11 @@ Describe at least:
 
 *Eddie Ayala*
 
-*
+* Team work
 
 *Carlos Rojas*
 
-*
+* Team work
 
 *David Siebert*
 
