@@ -27,7 +27,7 @@ Describe at least:
 
 *David Siebert*
 
-*
+* Adaptation, I look forward to challenges, collaboration and finding solutions to suit our team.
 
 *Raphael Chookagian*
 
@@ -47,7 +47,7 @@ Describe at least:
 
 *David Siebert*
 
-*
+* Being nimble during project week is essential. We have a plan and we know there will be changes to the path but not the goal.
 
 *Raphael Chookagian*
 
@@ -67,7 +67,7 @@ Describe at least:
 
 *David Siebert*
 
-*
+* Communication & skillset/tool proficiency.
 
 *Raphael Chookagian*
 
@@ -87,7 +87,7 @@ Describe at least:
 
 *David Siebert*
 
-*
+* Communication is key. Checking in and having open communication will only help the team succeed. 
 
 *Raphael Chookagian*
 
