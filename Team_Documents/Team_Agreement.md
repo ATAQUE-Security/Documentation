@@ -1,3 +1,5 @@
+<img src="./assets/ring.png" width="350">
+
 # Cloud Sentry Systems Team Agreement
 
 Eddie Ayala
@@ -87,7 +89,7 @@ Describe at least:
 
 *David Siebert*
 
-* Communication is key. Checking in and having open communication will only help the team succeed. 
+* Communication is key. Checking in and having open communication will only help the team succeed.
 
 *Raphael Chookagian*
 

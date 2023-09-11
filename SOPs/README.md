@@ -1,3 +1,5 @@
+<img src="./assets/ring.png" width="350">
+
 # SOPs Table of Contents
 
 ## [SOP 1](./AttackSOP.md)

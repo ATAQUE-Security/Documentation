@@ -1,3 +1,5 @@
+<img src="./assets/ring.png" width="350">
+
 # Attack Standard Operating Procedure (SOP)
 
 ## Purpose

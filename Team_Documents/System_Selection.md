@@ -1,3 +1,5 @@
+<img src="./assets/ring.png" width="350">
+
 # Systems Selection
 
 ## Deliverable

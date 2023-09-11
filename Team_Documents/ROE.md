@@ -1,3 +1,5 @@
+<img src="./assets/ring.png" width="350">
+
 # Rules of Engagement
 
 SimCorp has designated the following scope of work.

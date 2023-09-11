@@ -1,3 +1,5 @@
+<img src="./assets/ring.png" width="350">
+
 # Ops 401 MidTerm Project Guidelines
 
 ## Team Members
