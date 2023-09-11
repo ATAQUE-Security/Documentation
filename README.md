@@ -29,6 +29,8 @@ This repository contains all documentation related to this project,  including t
 
 <img src="./assets/Topology.png" width="250">
 
+<img src="./assets/TopologyInitNmap.png" width="250">
+
 [Slideshow Presentation]()
 
 [Video]()
