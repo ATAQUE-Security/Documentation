@@ -1,4 +1,7 @@
-![Logo](./assets/ring.png)
+<!-- ![Logo](./assets/ring.png) -->
+<img src="./assets/ring.png" width="350">
+
+<!-- https://github.com/ATAQUE-Security/Documentation/blob/main/assets/ring.png -->
 
 # Welcome to our Documentation repository
 
