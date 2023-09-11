@@ -79,7 +79,7 @@ Describe at least:
 
 *Eddie Ayala*
 
-* Team work
+* Tceam work
 
 *Carlos Rojas*
 

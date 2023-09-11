@@ -32,7 +32,7 @@ This repository contains all documentation related to this project,  including t
 
 ### Project Management
 
-[Trello Board]([https://trello.com/b/cQDkV4p0/401-midterm-project](https://trello.com/b/q4cb2rJl/401d8rt1))
+[Trello Board](https://trello.com/b/q4cb2rJl/401d8rt1)
 
 <br>
 
