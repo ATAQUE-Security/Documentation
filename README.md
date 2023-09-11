@@ -1,3 +1,5 @@
+![Logo](./assets/ring.png)
+
 # Welcome to our Documentation repository
 
 This repository contains all documentation related to this project,  including the Team Agreement document, System Selections document, and all Standard Operating Procedures (SOPs).
