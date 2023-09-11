@@ -27,9 +27,10 @@ This repository contains all documentation related to this project,  including t
 
 ### Presentations
 
-<img src="./assets/Topology.png" width="450">
+<img src="./assets/Topology.png">
+<!-- <img src="./assets/Topology.png" width="450"> -->
 
-<img src="./assets/TopologyInitNmap.png" width="450">
+<img src="./assets/TopologyInitNmap.png">
 
 [Slideshow Presentation]()
 
