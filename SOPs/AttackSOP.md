@@ -16,7 +16,7 @@ To establish a standardized and reliable method for performing network and syste
 
 ## Prerequisites
 
-**Atack machine**:
+**Attack machine**:
 
 * Ensure Kali VM (ParrotOS/etc.) attack machine is up and running and up to date with most current updates and patches.
 * Implement proper SOP for attacks
