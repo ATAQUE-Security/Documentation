@@ -1,13 +1,11 @@
 <img src="../assets/ring.png" width="250">
 
-## Ataque Security ##
+# Ataque Security
 
-## IP report 10.0.074
+### Target:
 
-**IP Address Information:**
-
-- **IP Address:** [10.0.0.74]
-- ** Date, Time intial contact [E11 SEP 2023 1500hrs]
+- **IP Address:** 10.0.0.74
+- **Date, Time intial contact** E11 SEP 2023 1500hrs
 - **Hostname (if available):** [Enter the hostname associated with the IP address, if known]
 - **Purpose/Description:** [Describe the function or purpose of this IP address on the network]
 - **Location (if applicable):** [Specify the physical or logical location, e.g., data center, office branch]
@@ -15,6 +13,9 @@
 - **Network Segment/Subnet:** [Specify the network segment or subnet where this IP address belongs]
 - **Operating System (if known):** [Microsoft Windows RPC]
 - **Open Ports and Services:**
+
+
+
 
 *Port--State--Service-Version
 135/tcp   open  msrpc              Microsoft Windows RPC

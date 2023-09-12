@@ -1,13 +1,11 @@
 <img src="../assets/ring.png" width="250">
 
-## Ataque Security ##
+# Ataque Security
 
-## IP report 10.0.0.XX
-
-**IP Address Information:**
+### Target
 
 - **IP Address:** [Enter the IP address here]
-- ** Date, Time intial contact [Enter Date time here]
+- **Date, Time intial contact** [Enter Date time here]
 - **Hostname (if available):** [Enter the hostname associated with the IP address, if known]
 - **Purpose/Description:** [Describe the function or purpose of this IP address on the network]
 - **Location (if applicable):** [Specify the physical or logical location, e.g., data center, office branch]
@@ -33,7 +31,10 @@
 **Additional Notes:**
 [Add any supplementary information, observations, or context that may be relevant to this IP address]
 
+| Port | State | Service | Version |
+|:-----------------------:|:-----------------------:|:-----------------------:|:-----------------------:|
+| 22 | open | ssh | 3.X.X |
+
 - Last revised
 - Created 9/11/2023 1720hrs. David Siebert
-
----
+- Updated 9/12/2023 Raphael Chookagian
