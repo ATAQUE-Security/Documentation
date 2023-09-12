@@ -52,8 +52,9 @@ Perform enumeration and exploitation against a target system within the context 
 
 <!-- Searching Metasploit for possible exploits and scripts to run. -->
 
-MS08-067 Vulnerability:
-A critical vulnerability in the Windows Server service. If successfully exploited, it allows for remote code execution. An attacker who successfully exploited this vulnerability could take complete control of an affected system. The WannaCry ransomware notably exploited systems that were vulnerable to this flaw.
+#### MS08-067 Vulnerability
+
+* A critical vulnerability in the Windows Server service. If successfully exploited, it allows for remote code execution. An attacker who successfully exploited this vulnerability could take complete control of an affected system. The WannaCry ransomware notably exploited systems that were vulnerable to this flaw.
 
 ![Searching Metasploit for possible exploits and scripts to run.]()
 
