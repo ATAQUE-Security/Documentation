@@ -24,7 +24,6 @@
 
 | Port | State | Service | Version |
 |:-----------------------:|:-----------------------:|:-----------------------:|:-----------------------:|
-| 22 | open | ssh | 3.X.X |
 | 135/tcp | open | msrpc | Microsoft Windows RPC |
 | 139/tcp  | open | netbios-ssn | Microsoft Windows netbios-ssn |
 | 445/tcp  | open | microsoft-ds | Microsoft Windows 7 - 10 microsoft-ds (workgroup: WORKGROUP) |
@@ -43,7 +42,7 @@
 | 49165/tcp | open | msrpc | Microsoft Windows RPC |
 | 49167/tcp | open | msrpc | Microsoft Windows RPC |
 
-### *Include information about any non-standard or unusual services*
+***Include information about any non-standard or unusual services***
 
 <br>
 

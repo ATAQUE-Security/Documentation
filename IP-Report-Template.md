@@ -30,7 +30,7 @@
 |:-----------------------:|:-----------------------:|:-----------------------:|:-----------------------:|
 | 22 | open | ssh | 3.X.X |
 
-### *Include information about any non-standard or unusual services*
+***Include information about any non-standard or unusual services***
 
 <br>
 
