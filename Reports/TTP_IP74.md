@@ -96,7 +96,9 @@ Tried a simple rcpclient login just to cover all the bases.
 
 <br>
 
-### ***Vulnerability Explanation: (139/tcp netbios): Vulnerabilities associated with port 139/tcp NetBIOS can include unauthorized access, information disclosure, and remote code execution vulnerabilities. Exploiting these vulnerabilities can allow attackers to gain unauthorized access to Windows systems, extract sensitive information, or execute arbitrary code on the target system
+### ***Vulnerability Explanation: (139/tcp netbios):***
+
+* Vulnerabilities associated with port 139/tcp NetBIOS can include unauthorized access, information disclosure, and remote code execution vulnerabilities. Exploiting these vulnerabilities can allow attackers to gain unauthorized access to Windows systems, extract sensitive information, or execute arbitrary code on the target system
 
 ### ***Vulnerability Fix:***
 
@@ -136,12 +138,15 @@ Metasploit to scan for SMB version:
 
 <br>
 
-Vulnerability Explanation:(139,445/tcp msrpc - EternalBlue): The "EternalBlue" vulnerability, often associated with ports 139/tcp and 445/tcp (which are typically used for Microsoft File and Printer Sharing), is a critical security issue that gained notoriety due to its role in the WannaCry ransomware attack.
+### ***Vulnerability Explanation:(139,445/tcp msrpc - EternalBlue):***
 
-Vulnerability Fix:
-Microsoft released a security update (MS17-010) to address the EternalBlue vulnerability. The primary mitigation for this vulnerability is to ensure that all Windows systems on your network are patched with the necessary security updates. Use Windows Update, Windows Server Update Services (WSUS), or other update management solutions to deploy these updates.
+* The "EternalBlue" vulnerability, often associated with ports 139/tcp and 445/tcp (which are typically used for Microsoft File and Printer Sharing), is a critical security issue that gained notoriety due to its role in the WannaCry ransomware attack.
 
-Severity: High
+### ***Vulnerability Fix:***
+
+* Microsoft released a security update (MS17-010) to address the EternalBlue vulnerability. The primary mitigation for this vulnerability is to ensure that all Windows systems on your network are patched with the necessary security updates. Use Windows Update, Windows Server Update Services (WSUS), or other update management solutions to deploy these updates.
+
+### ***Severity:*** High
 
 Using Metasploit to check for the EternalBlue Exploit
 
