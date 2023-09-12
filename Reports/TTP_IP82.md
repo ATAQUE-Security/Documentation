@@ -150,3 +150,53 @@ Using Metasploit to check for the EternalBlue Exploit
 It checks the available encryption and DoS vulnerability (without causing DoS to the service) and obtains NTLM Windows info (versions).
 
 `nmap --script "rdp-enum-encryption or rdp-vuln-ms12-020 or rdp-ntlm-info" -p 3389 -T4 <TargetIP>`
+
+![nmap scan]()
+
+` hydra -L /usr/share/seclists/Usernames/top-usernames-shortlist.txt -P /usr/share/seclists/Passwords/500-worst-passwords.txt 10.0.0.82 rdp `
+
+![Hydra]()
+
+<br>
+
+### ***Vulnerability Explanation: 5985/tcp(http):***
+
+* Windows Management Instrumentation is a service that enables both local and remote access, though the latter is facilitated by Remote Services such as Distributed Component Object Model (DCOM) and Windows Remote Management (WinRM). An adversary can use WMI to interact with local and remote systems and use it as a means to execute various behaviors, such as gathering information for Discovery as well as remote Execution of files as part of Lateral Movement.
+
+### ***Vulnerability Fix:***
+
+* Apply and maintain the most current security updates.
+
+* M1040: Behavior Prevention on Endpoint
+
+* M1038: Execution Prevention
+
+* M1026: Privileged Account Management
+
+* M1018: User Account Management
+
+**Severity:** High
+
+<br>
+
+### ***Vulnerability Explanation: (47001/tcp http):***
+
+* Port 47001 (TCP) running the HTTP service is potentially vulnerable to security threats. HTTP is a common protocol used for web services and applications. This vulnerability may expose the web server or application running on this port to potential risks.
+
+### ***Vulnerability Fix:***
+
+* To mitigate this vulnerability, it is essential to apply and consistently maintain the most current security updates for both the web server software and any hosted web applications. This includes regularly patching and updating the server's operating system, web server software (e.g., Apache, Nginx), and any application frameworks or libraries in use.
+
+**Severity:** High
+
+<br>
+
+### ***Vulnerability Explanation: (47001/tcp http):***
+
+* Port 49154 (TCP) running the msrpc service is potentially vulnerable to security threats. MSRPC (Microsoft Remote Procedure Call) is a protocol used for communication between Windows systems. This vulnerability may expose the service using msrpc on this port to potential risks.
+
+### ***Vulnerability Fix:***
+
+* To mitigate this vulnerability, it is crucial to apply and consistently maintain the most current security updates for the system or service using msrpc on port 49154. This includes regularly updating the Windows operating system and any software or applications that rely on msrpc.
+
+**Severity:** High
