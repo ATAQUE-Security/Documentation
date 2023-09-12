@@ -22,7 +22,7 @@ Ensure that the attack machine used is a secure and isolated environment.
 Maintain up-to-date attack tools and software.
 Follow proper procedures for data handling and protection.
 
-##Data Collection##
+## Data Collection
 
 **Identification:**
 
@@ -83,44 +83,10 @@ Revision History
 
 Record any updates or revisions to this SOP with dates and responsible parties.
 
+## References
 
+## Definitions
 
+## Revision History
 
-SOPs will go inside of this folder
-Purpose
-Purpose of this SOP is to outline the process of/for
-Scope
-To establish a standardized and reliable method for performing regular <SOP#?>
-Responsibilities
-Responsibilites - (who, what, where, when?)
-Procedure
-Step 1
-
-sub-steps
-
-sub-steps
-
-Step 2
-
-sub-steps
-Step 3
-
-Step 4
-
-Step 5
-
-References
-Top Image
-
-description
-
-SOP #5
-
-Rick ROll
-
-Definitions
-Definition: definition of the word
-
-Revision History
-09/11/2023 First_Name Last_Name
-09/11/2023 - Raphael Chookagian
+* 09/12/2023 Revised David Siebert 
