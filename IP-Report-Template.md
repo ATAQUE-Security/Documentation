@@ -24,7 +24,11 @@
 
 - *List the open ports along with the associated services (e.g., Port 22 - SSH, Port 80 - HTTP)*
 
+<br>
+
 ### Example
+
+<br>
 
 | Port | State | Service | Version |
 |:-----------------------:|:-----------------------:|:-----------------------:|:-----------------------:|
