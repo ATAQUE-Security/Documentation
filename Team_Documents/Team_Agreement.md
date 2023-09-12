@@ -1,4 +1,4 @@
-<img src="./assets/ring.png" width="250">
+<img src="../assets/ring.png" width="250">
 
 # Cloud Sentry Systems Team Agreement
 

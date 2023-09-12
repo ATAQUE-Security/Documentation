@@ -1,3 +1,5 @@
+<img src="../assets/ring.png" width="250">
+
 ## Ataque Security ##
 
 ## IP report 10.0.074
@@ -49,7 +51,7 @@
 
 49167/tcp open  msrpc              Microsoft Windows RPC
 
-  - [Include information about any non-standard or unusual services]
+- [Include information about any non-standard or unusual services]
 - **Vulnerabilities/Weaknesses:**
   - [Port 445 (microsoft-ds) Windows file and printer sharing (SMB) and can be exploited for various attacks, including ransomware and lateral movement.]
   - [Port 3389 (ssl/ms-wbt-server): Remote Desktop Protocol (RDP) port. Brute-force attacks and other RDP-related exploits]
@@ -70,10 +72,7 @@
 **Additional Notes:**
 [Add any supplementary information, observations, or context that may be relevant to this IP address]
 
-
 - Last revised
-- Created 9/11/2023 1800hrs. David Siebert 
+- Created 9/11/2023 1800hrs. David Siebert
+
 ---
-
-
-

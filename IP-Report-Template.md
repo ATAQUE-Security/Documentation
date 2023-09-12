@@ -1,3 +1,5 @@
+<img src="../assets/ring.png" width="250">
+
 ## Ataque Security ##
 
 ## IP report 10.0.0.XX
@@ -31,12 +33,7 @@
 **Additional Notes:**
 [Add any supplementary information, observations, or context that may be relevant to this IP address]
 
-
 - Last revised
-- Created 9/11/2023 1720hrs. David Siebert 
+- Created 9/11/2023 1720hrs. David Siebert
+
 ---
-
-
-
-
-

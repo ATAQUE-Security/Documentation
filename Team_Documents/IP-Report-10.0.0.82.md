@@ -1,3 +1,5 @@
+<img src="../assets/ring.png" width="250">
+
 ## Ataque Security ##
 
 ## IP report 10.0.0.82
@@ -28,7 +30,7 @@
   - [49155/tcp open msrpc Microsoft Windows RPC ]
   - [49165/tcp open msrpc Microsoft Windows RPC]
   - [49166/tcp open msrpc Microsoft Windows RPC ]
-    
+
   - [Include information about any non-standard or unusual services]
 - **Vulnerabilities/Weaknesses:**
   - [Document any identified vulnerabilities or weaknesses associated with this IP address]
@@ -46,7 +48,7 @@
 **Additional Notes:**
 [Add any supplementary information, observations, or context that may be relevant to this IP address]
 
-
 - Last revised
-- Created 9/11/2023 1820hrs. David Siebert 
+- Created 9/11/2023 1820hrs. David Siebert
+
 ---

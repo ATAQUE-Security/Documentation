@@ -1,4 +1,6 @@
-26## Ataque Security ##
+<img src="../assets/ring.png" width="250">
+
+## Ataque Security ##
 
 ## IP report 10.0.0.126
 
@@ -13,22 +15,22 @@
 - **Network Segment/Subnet:** [Specify the network segment or subnet where this IP address belongs]
 - **Operating System (if known):** [ Microsoft Windows]
 - **Open Ports and Services:**
- - Port--State--Service--Version
-  - [135/tcp open msrpc Microsoft Windows RPC]
-  - [139/tcp open netbios-ssn Microsoft Windows netbios-ssn]
-  - [445/tcp open microsoft-ds Microsoft Windows Server 2008 R2 - 2012 microsoft-ds]
-  - [3389/tcp open ms-wbt-server Microsoft Terminal Services]
-  - [5985/tcp open http Microsoft HTTPAPI httpd 2.0 (SSDP/UPnP]
-  - [8089/tcp open ssl/http Splunkd httpd]
-  - [47001/tcp open http Microsoft HTTPAPI httpd 2.0 (SSDP/UPnP)]
-  - [49664/tcp open  msrpc Microsoft Windows RPC]
-  - [49665/tcp open  msrpc Microsoft Windows RPC]
-  - [49666/tcp open  msrpc Microsoft Windows RPC]
-  - [49667/tcp open  msrpc Microsoft Windows RPC]
-  - [49669/tcp open  msrpc Microsoft Windows RPC]
-  - [49673/tcp open msrpc Microsoft Windows RPC]
-  - [49675/tcp open  msrpc Microsoft Windows RPC]
-  - [49688/tcp open  msrpc Microsoft Windows RPC]
+- Port--State--Service--Version
+- [135/tcp open msrpc Microsoft Windows RPC]
+- [139/tcp open netbios-ssn Microsoft Windows netbios-ssn]
+- [445/tcp open microsoft-ds Microsoft Windows Server 2008 R2 - 2012 microsoft-ds]
+- [3389/tcp open ms-wbt-server Microsoft Terminal Services]
+- [5985/tcp open http Microsoft HTTPAPI httpd 2.0 (SSDP/UPnP]
+- [8089/tcp open ssl/http Splunkd httpd]
+- [47001/tcp open http Microsoft HTTPAPI httpd 2.0 (SSDP/UPnP)]
+- [49664/tcp open  msrpc Microsoft Windows RPC]
+- [49665/tcp open  msrpc Microsoft Windows RPC]
+- [49666/tcp open  msrpc Microsoft Windows RPC]
+- [49667/tcp open  msrpc Microsoft Windows RPC]
+- [49669/tcp open  msrpc Microsoft Windows RPC]
+- [49673/tcp open msrpc Microsoft Windows RPC]
+- [49675/tcp open  msrpc Microsoft Windows RPC]
+- [49688/tcp open  msrpc Microsoft Windows RPC]
 - **Vulnerabilities/Weaknesses:**
   - [Document any identified vulnerabilities or weaknesses associated with this IP address]
   - [Include CVSS scores or severity ratings if available]
@@ -45,7 +47,7 @@
 **Additional Notes:**
 [Add any supplementary information, observations, or context that may be relevant to this IP address]
 
-
 - Last revised
-- Created 9/12/2023 1140hrs. David Siebert 
+- Created 9/12/2023 1140hrs. David Siebert
+
 ---

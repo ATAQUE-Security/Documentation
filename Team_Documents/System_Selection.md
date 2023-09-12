@@ -1,4 +1,4 @@
-<img src="./assets/ring.png" width="250">
+<img src="../assets/ring.png" width="250">
 
 # Systems Selection
 
