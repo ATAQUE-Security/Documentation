@@ -32,7 +32,7 @@ This repository contains all documentation related to this project,  including t
 
 <img src="./assets/NmapTop.png">
 
-<img src="./assets/RevisedTop.png"
+<img src="./assets/RevisedTop.png">
 
 ### Presentations
 
