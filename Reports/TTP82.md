@@ -200,3 +200,5 @@ It checks the available encryption and DoS vulnerability (without causing DoS to
 * To mitigate this vulnerability, it is crucial to apply and consistently maintain the most current security updates for the system or service using msrpc on port 49154. This includes regularly updating the Windows operating system and any software or applications that rely on msrpc.
 
 **Severity:** High
+
+* Created 9/12/2023 Raphael Chookagian
