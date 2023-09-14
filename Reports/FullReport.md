@@ -2,6 +2,7 @@
 <p style="text-align: right">
 September 11, 2023</p>
 
+
 <img src="../assets/ring.png" width="250">
 
 # **ATAQUE SECURITY**
@@ -22,7 +23,9 @@ The objective of this assessment is to perform an internal penetration test agai
 
 * Perform enumeration and exploitation against a target system within the context of a pentest
 
+
 <br>
+
 
 **High-Level Summary**
 
@@ -30,7 +33,9 @@ ATAQUE Security was tasked with performing an internal penetration test against 
 
 When performing the internal penetration test, there were several alarming vulnerabilities that were identified on the target(s). When performing the attacks, I was able to gain access to databases, file share, and servers, primarily due to outdated patches and poor security configurations.
 
+
 <br>
+
 
 Open Ports from standard Nmap scan:
 
@@ -137,13 +142,17 @@ Open Ports from standard Nmap scan:
   </tr>
 </table>
 
+
 <br>
+
 
 **Recommendations**
 
 ATAQUE Security recommends patching the vulnerabilities identified during the testing to ensure that attackers cannot exploit these systems in the future. It is important to note these systems require frequent patching and once patched, should remain on a regular patch program to protect additional vulnerabilities that are discovered at a later date.
 
+
 <br>
+
 
 **Information Gathering**
 
@@ -157,7 +166,9 @@ The information gathering portion of a penetration test focuses on identifying t
 * **10.0.0.197**
 * **10.0.0.206**
 
+
 <br>
+
 
 **Penetration**
 
@@ -171,13 +182,17 @@ The penetration testing portions of the assessment focus heavily on gaining acce
 * **System IP: 10.0.0.197**
 * **System IP: 10.0.0.206**
 
+
 <br>
+
 
 **Service Enumeration**
 
 The service enumeration portion of a penetration test focuses on gathering information about what services are alive on a system or systems. This is valuable for an attacker as it provides detailed information on potential attack vectors into a system. Understanding what applications are running on the system gives an attacker needed information before performing the actual penetration test.  In some cases, some ports may not be listed.
 
+
 <br>
+
 
 **Nmap scan report for 10.0.0.74**
 
@@ -351,7 +366,9 @@ The service enumeration portion of a penetration test focuses on gathering infor
   </tr>
 </table>
 
+
 <br>
+
 
 **Nmap scan report for 10.0.0.82**
 
@@ -515,6 +532,7 @@ The service enumeration portion of a penetration test focuses on gathering infor
   </tr>
 </table>
 
+
 <br>
 
 **Nmap scan report for 10.0.0.123**
@@ -578,6 +596,7 @@ The service enumeration portion of a penetration test focuses on gathering infor
    </td>
   </tr>
 </table>
+
 
 <br>
 
@@ -753,7 +772,9 @@ The service enumeration portion of a penetration test focuses on gathering infor
   </tr>
 </table>
 
+
 <br>
+
 
 **Nmap scan report for 10.0.0.175**
 
@@ -807,7 +828,9 @@ The service enumeration portion of a penetration test focuses on gathering infor
   </tr>
 </table>
 
+
 <br>
+
 
 **Nmap scan report for 10.0.0.197**
 
@@ -881,7 +904,9 @@ The service enumeration portion of a penetration test focuses on gathering infor
   </tr>
 </table>
 
+
 <br>
+
 
 **Nmap scan report for 10.0.0.206**
 
