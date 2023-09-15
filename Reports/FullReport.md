@@ -49,7 +49,7 @@ As we progress through the report, each target will be examined in detail, shedd
 
 <br>
 
-## Open Ports from standard Nmap scan
+### Open Ports from Nmap scan
 
 <table>
   <tr>
