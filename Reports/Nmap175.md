@@ -82,13 +82,13 @@ Nmap scan report for 10.0.0.175
 <br>
 <br>
 
-**Vulnerability Explanation:** (22/tcp  - ssh):
+## **Vulnerability Explanation:** (22/tcp  - ssh)
 
 - OpenSSH (7.6p1 Ubuntu 4 (Ubuntu Linux; protocol 2.0) is a common service for remote administration. If not properly secured and/or on older versions of the software might make it more vulnerable to attackers.
 
 <br>
 
-**Vulnerability Fix:**
+## **Vulnerability Fix:**
 
 - Disable root login.
 - Regularly update OpenSSH to the latest version.
@@ -97,18 +97,18 @@ Nmap scan report for 10.0.0.175
 
 <br>
 
-**Severity**: High
+## **Severity**: High
 
 <br>
 <br>
 
-**Vulnerability Explanation:** (80/tcp  - info):
+## **Vulnerability Explanation:** (80/tcp  - info)
 
 - This is an Apache server running on the default HTTP port. If not properly secured, it could be easily susceptible to attacks.
 
 <br>
 
-**Vulnerability Fix:**
+## **Vulnerability Fix:**
 
 - Regularly update to the latest version.
 - Implement firewall rules to restrict access.
@@ -116,18 +116,18 @@ Nmap scan report for 10.0.0.175
 
 <br>
 
-**Severity**: High
+## **Severity**: High
 
 <br>
 <br>
 
-**Vulnerability Explanation:** (8089/tcp  - info):
+## **Vulnerability Explanation:** (8089/tcp  - info)
 
 - This is running Splunk, a software platform used in threat scanning, hunting and alerts. If not properly secured with authentication and authorization, access may be easily available. Accessible files such as robots.txt could hold important information. This scan shows Splunk is using a default certificate, this could easily be bypassed.
 
 <br>
 
-**Vulnerability Fix:**
+## **Vulnerability Fix:**
 
 - Splunk properly configured for logging, capturing, alerting, etc..
 - Regularly update to the latest version.
@@ -135,7 +135,7 @@ Nmap scan report for 10.0.0.175
 
 <br>
 
-**Severity**: High
+## **Severity**: High
 
 <br>
 
