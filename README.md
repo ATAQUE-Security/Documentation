@@ -34,7 +34,7 @@ This repository is your gateway to understanding our operations, strategies, and
 | [SOPs](./SOPs/) |
 |:-----------------------:|
 |  [Reports](https://github.com/ATAQUE-Security/Documentation/blob/main/Reports) |
-| [Team Agreement](https://github.com/ATAQUE-Security/Documentation/blob/main/Team_Documents/Team_Agreement.md) |
+| [Team Documents](https://github.com/ATAQUE-Security/Documentation/blob/main/Team_Documents) |
 
 <br>
 
