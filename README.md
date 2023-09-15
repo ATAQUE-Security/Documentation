@@ -8,11 +8,15 @@ In the ever-evolving world of cybersecurity, offense often teaches the best defe
 📖 What's Inside?
 This repository is your gateway to understanding our operations, strategies, and findings. Here's a brief overview of what you can expect:
 
-Team Agreement Document: The foundation of our collaboration, outlining roles, responsibilities, and guidelines.
-Scan Reports: Insights into our scanning procedures and the vulnerabilities we've uncovered.
-TTP Reports (Tactics, Techniques, and Procedures): A deep dive into our modus operandi, detailing the tactics and strategies we employ.
-Pentest Reports: Comprehensive reports on penetration testing activities, findings, and recommendations.
-Standard Operating Procedures (SOPs): Step-by-step guides and best practices that drive our operations.
+* Team Agreement Document: The foundation of our collaboration, outlining roles, responsibilities, and guidelines.
+
+* Scan Reports: Insights into our scanning procedures and the vulnerabilities we've uncovered.
+
+* TTP Reports (Tactics, Techniques, and Procedures): A deep dive into our modus operandi, detailing the tactics and strategies we employ.
+
+* Pentest Reports: Comprehensive reports on penetration testing activities, findings, and recommendations.
+
+* Standard Operating Procedures (SOPs): Step-by-step guides and best practices that drive our operations.
 
 <br>
 
