@@ -17,17 +17,25 @@ September 11, 2023</p>
 
 Welcome to the comprehensive penetration test report for SimCorp. This document encapsulates the exhaustive efforts undertaken by ATAQUE Security in evaluating the security posture of SimCorp's networks and systems. All activities detailed herein were performed under authorized and contractual conditions.
 
+<br>
+
 **Objective**
 
 The focal point of this assessment revolves around executing an internal penetration test targeting SimCorp's internal network. ATAQUE Security is responsible for the complete lifecycle of this assessment - from initial testing and auditing to the final reporting. We strictly adhered to the established guidelines and parameters, ensuring a controlled yet robust evaluation environment.
+
+<br>
 
 Key Task:
 
 * Enumerate and exploit target systems within the boundaries of a penetration test.
 
+<br>
+
 **High-Level Summary**
 
 Tasked with a crucial mission, ATAQUE Security embarked on an internal penetration test aimed at SimCorp's infrastructure. The primary goal was to simulate potential adversarial actions: mapping the network, identifying connected systems, exploiting detected vulnerabilities, and then channeling these findings to inform defensive measures.
+
+<br>
 
 Key Outcomes:
 
@@ -39,7 +47,6 @@ Key Outcomes:
 
 As we progress through the report, each target will be examined in detail, shedding light on specific vulnerabilities, exploitation methods, and recommended remediation steps. It is our hope that this report serves not just as a record of findings but as a roadmap for fortifying SimCorp's digital assets.
 
-<br>
 <br>
 
 ## Open Ports from standard Nmap scan
