@@ -33,7 +33,7 @@ This repository contains all documentation related to this project,  including t
 
 <img src="./assets/RevisedTop.png" width="550">
 
-<br>
+<!-- <br>
 
 ### Presentations
 
@@ -55,7 +55,7 @@ This repository contains all documentation related to this project,  including t
 
 [Presentations](https://github.com/ATAQUE-Security/Presentations)
 
-[Scripts](https://github.com/ATAQUE-Security/Scripts)
+[Scripts](https://github.com/ATAQUE-Security/Scripts) -->
 
 <br>
 
