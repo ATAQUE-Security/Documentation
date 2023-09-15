@@ -8,6 +8,9 @@ September 11, 2023</p>
 
 ## **Penetration Test Report for SimCorp**
 
+[Google_Docs_Report](https://docs.google.com/document/d/1CDvXPxfJEOHXxPF0aDLlPLerwZEV6g_lDtjprG_z0RI/edit?usp=sharing)
+<br>
+
 <br>
 
 **Introduction**
