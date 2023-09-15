@@ -36,50 +36,49 @@ Open Ports from standard Nmap scan:
 
 <table>
   <tr>
-   <td><strong>Target A:</strong>
+   <td><strong>Target IP: 10.0.0.74</strong>
    </td>
-   <td><strong>Target B:</strong>
+   <td><strong>Target IP: 10.0.0.82</strong>
    </td>
-   <td><strong>Target C:</strong>
-   </td>
-  </tr>
-  <tr>
-   <td>10.0.0.74  - <em>135/tcp</em>
-   </td>
-   <td>10.0.0.82 - <em>21/tcp ftpd</em>
-   </td>
-   <td>10.0.0.123 - 22/tcp
+   <td><strong>Target IP: 10.0.123</strong>
    </td>
   </tr>
   <tr>
-   <td>10.0.0.74  - 139/tcp
+   <td><em>135/tcp - msrpc</em>
    </td>
-   <td>10.0.0.82 - 80/tcp http
+   <td><em>21/tcp - ftpd</em>
    </td>
-   <td>10.0.0.123 - 111/tcp
-   </td>
-  </tr>
-  <tr>
-   <td>10.0.0.74 - 445/tcp
-   </td>
-   <td>10.0.0.82  - 135/tcp msrpc
-   </td>
-   <td>10.0.0.123 - 2049/tcp
+   <td><em>22/tcp - ssh</em>
    </td>
   </tr>
   <tr>
-   <td>10.0.0.74 - 554/tcp
+   <td><em>139/tcp - netbios-ssn</em>
    </td>
-   <td>10.0.0.82  - 139/tcp netbios-ssn
+   <td><em>80/tcp - http</em>
    </td>
-   <td>10.0.0.123 - 8089/tcp
+   <td><em>111/tcp - rpcbind</em>
    </td>
   </tr>
   <tr>
-   <td>10.0.0.74 - 2869/tcp
+   <td><em>445/tcp - microsoft-ds</em>
    </td>
-   <td>
-    10.0.0.82 - 445/tcp microsoft-ds
+   <td><em>135/tcp - msrpc</em>
+   </td>
+   <td><em>2049/tcp - nfs</em>
+   </td>
+  </tr>
+  <tr>
+   <td><em>554/tcp - rtsp</em>
+   </td>
+   <td><em>139/tcp - netbios-ssn</em>
+   </td>
+   <td><em>8089/tcp - ssl/http</em>
+   </td>
+  </tr>
+  <tr>
+   <td><em>2869/tcp - http</em>
+   </td>
+   <td><em>445/tcp - microsoft-ds</em>
    </td>
    <td>
    </td>
@@ -88,63 +87,63 @@ Open Ports from standard Nmap scan:
 
 <table>
   <tr>
-   <td><strong>Target D:</strong>
+   <td><strong>Target IP: 10.0.0.126</strong>
    </td>
-   <td><strong>Target E:</strong>
+   <td><strong>Target IP: 10.0.0.175</strong>
    </td>
-   <td><strong>Target F:</strong>
+   <td><strong>Target IP: 10.0.0.197</strong>
    </td>
-   <td><strong>Target G:</strong>
-   </td>
-  </tr>
-  <tr>
-   <td>10.0.0.126  - 135<em>/tcp</em>
-   </td>
-   <td>10.0.0.175 - 22<em>/tcp</em>
-   </td>
-   <td>10.0.0.197 - 135/tcp
-   </td>
-   <td>10.0.0.206 - 135/tcp
+   <td><strong>Target IP: 10.0.0.206</strong>
    </td>
   </tr>
   <tr>
-   <td>10.0.0.126  - 139/tcp
+   <td><em>135/tcp - msrpc</em>
    </td>
-   <td>10.0.0.175 - 80/tcp
+   <td><em>22/tcp - ssh</em>
    </td>
-   <td>10.0.0.197 - 139/tcp
+   <td><em>135/tcp - msrpc</em>
    </td>
-   <td>10.0.0.206 - 139/tcp
-   </td>
-  </tr>
-  <tr>
-   <td>10.0.0.126 - 445/tcp
-   </td>
-   <td>10.0.0.175 - 8089/tcp
-   </td>
-   <td>10.0.0.197 - 445/tcp
-   </td>
-   <td>10.0.0.206 - 445/tcp
+   <td><em>135/tcp - msrpc</em>
    </td>
   </tr>
   <tr>
-   <td>10.0.0.126 - 3389/tcp
+   <td><em>139/tcp - netbios-ssn</em>
+   </td>
+   <td><em>80/tcp - http</em>
+   </td>
+   <td><em>139/tcp - netbios-ssn</em>
+   </td>
+   <td><em>139/tcp - netbios-ssn</em>
+   </td>
+  </tr>
+  <tr>
+   <td><em>445/tcp - microsoft-ds</em>
+   </td>
+   <td><em>8089/tcp - ssl/http</em>
+   </td>
+   <td><em>445/tcp - microsoft-ds</em>
+   </td>
+   <td><em>445/tcp - microsoft-ds</em>
+   </td>
+  </tr>
+  <tr>
+   <td><em>3389/tcp - ms-wbt-server</em>
    </td>
    <td>
    </td>
-   <td>10.0.0.197 - 3389/tcp
+   <td><em>3389/tcp - ms-wbt-server</em>
    </td>
-   <td>10.0.0.206 - 3389/tcp
+   <td><em>3389/tcp - ms-wbt-server</em>
    </td>
   </tr>
   <tr>
-   <td>10.0.0.126 - 5985/tcp
+   <td><em>5985/tcp - http</em>
    </td>
    <td>
    </td>
-   <td>10.0.0.197 - 8089/tcp
+   <td><em>8089/tcp - ssl/http</em>
    </td>
-   <td>10.0.0.206 - 8089/tcp
+   <td><em>8089/tcp - ssl/http</em>
    </td>
   </tr>
 </table>
