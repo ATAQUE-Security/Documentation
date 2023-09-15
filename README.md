@@ -1,9 +1,18 @@
 <!-- ![Logo](./assets/ring.png) -->
 <img src="./assets/ring.png" width="250">
 
-# Welcome to our Documentation repository
+# Welcome to ATAQUE Security's Documentation Repository
 
-This repository contains all documentation related to this project,  including the Team Agreement document, System Selections document, and all Standard Operating Procedures (SOPs).
+In the ever-evolving world of cybersecurity, offense often teaches the best defense. As the red team for this project, we take on the mantle of the "attackers," simulating real-world threats to test and improve the organization's defensive measures.
+
+📖 What's Inside?
+This repository is your gateway to understanding our operations, strategies, and findings. Here's a brief overview of what you can expect:
+
+Team Agreement Document: The foundation of our collaboration, outlining roles, responsibilities, and guidelines.
+Scan Reports: Insights into our scanning procedures and the vulnerabilities we've uncovered.
+TTP Reports (Tactics, Techniques, and Procedures): A deep dive into our modus operandi, detailing the tactics and strategies we employ.
+Pentest Reports: Comprehensive reports on penetration testing activities, findings, and recommendations.
+Standard Operating Procedures (SOPs): Step-by-step guides and best practices that drive our operations.
 
 <br>
 
