@@ -1,24 +1,27 @@
+<p style="text-align: right">
+09/13/23</p>
+
 <img src="./assets/ring.png" width="250">
 
-# Ataque Security
+## **ATAQUE Penetration Test**
 
-## Target
+## **Target: 10.0.0.175**
 
-**IP Address:** [Enter the IP address here]
+**IP Address:** 10.0.0.175
 
-**Date, Time intial contact** [Enter Date time here]
+**Date, Time initial contact** 12 SEP 2023 1500hrs
 
-**Hostname:** [Enter the hostname associated with the IP address, if known]
+**Hostname:**
 
-**Purpose/Description:** [Describe the function or purpose of this IP address on the network]
+**Purpose/Description:**
 
-**Location:** [Specify the physical or logical location, e.g., data center, office branch]
+**Location:** AWS Cloud Services
 
-**Owner/Responsible Party:** [Identify the person or team responsible for this IP address]
+**Owner/Responsible Party:** SimCorp
 
-**Network Segment/Subnet:** [Specify the network segment or subnet where this IP address belongs]
+**Network Segment/Subnet:** 10.0.0.0/24
 
-**Operating System:** [Indicate the operating system running on the target, if known]
+**Operating System:** Microsoft Windows
 
 **Open Ports and Services:**
 
@@ -26,47 +29,98 @@
 
 <br>
 
-### Example
+Nmap scan report for 10.0.0.175
+
+- Host is up (0.026s latency).
+- Not shown: 997 closed tcp ports (conn-refused)
+- Service Info: OS: Linux; CPE: cpe:/o:linux:linux_kernel
+
+<table>
+  <tr>
+   <td>
+<strong>Port:</strong>
+   </td>
+   <td><strong>State:</strong>
+   </td>
+   <td><strong>Service:</strong>
+   </td>
+   <td><strong>Version:</strong>
+   </td>
+  </tr>
+  <tr>
+   <td>22/tcp
+   </td>
+   <td>open
+   </td>
+   <td>ssh
+   </td>
+   <td>OpenSSH 8.2p1 Ubuntu 4Ubuntu0.2 (Ubuntu Linux; protocol 2.0
+   </td>
+  </tr>
+  <tr>
+   <td>80/tcp
+   </td>
+   <td>open
+   </td>
+   <td>http
+   </td>
+   <td>Apache httpd 2.4.41 (Ubuntu)
+   </td>
+  </tr>
+  <tr>
+   <td>8089/tcp
+   </td>
+   <td>open
+   </td>
+   <td>Splunkd
+   </td>
+   <td>httpd
+   </td>
+  </tr>
+</table>
 
 <br>
 
-| Port | State | Service | Version |
-|:-----------------------:|:-----------------------:|:-----------------------:|:-----------------------:|
-| 22 | open | ssh | 3.X.X |
+**Vulnerability Explanation:** (22/tcp  - ssh):
 
-***Include information about any non-standard or unusual services***
+- OpenSSH (7.6p1 Ubuntu 4 (Ubuntu Linux; protocol 2.0) is a common service for remote administration. If not properly secured and/or on older versions of the software might make it more vulnerable to attackers.
 
-<br>
+**Vulnerability Fix:**
 
-**Vulnerabilities/Weaknesses:**
+- Disable root login.
+- Regularly update OpenSSH to the latest version.
+- Possibly implement fail2ban to block IP addresses that show malicious signs.
+- Ensure the use of strong, unique passwords or, even better, use key-based authentication.
 
-- *Document any identified vulnerabilities or weaknesses associated with this IP address*
-
-- *Include CVSS scores or severity ratings if available*
-
-<br>
-
-**Credentials/Authentication:**
-
-- *Record any discovered credentials, such as usernames and passwords*
-
-- *Specify the method used to obtain these credentials, if applicable*
+**Severity**: High
 
 <br>
 
-**Exploits/Attacks:**
+**Vulnerability Explanation:** (80/tcp  - info):
 
-- *List any successful exploits or attacks carried out against this IP address*
+- This is an Apache server running on the default HTTP port. If not properly secured, it could be easily susceptible to attacks.
 
-- *Provide details about the exploitation process*
+**Vulnerability Fix:**
+
+- Regularly update to the latest version.
+- Implement firewall rules to restrict access.
+- Limit access to required authorized users.
+
+**Severity**: High
 
 <br>
 
-**Recommendations/Next Steps:**
+**Vulnerability Explanation:** (8089/tcp  - info):
 
-- *Offer suggestions for remediation or mitigation measures to address vulnerabilities*
+- This is running Splunk, a software platform used in threat scanning, hunting and alerts. If not properly secured with authentication and authorization, access may be easily available. Accessible files such as robots.txt could hold important information. This scan shows Splunk is using a default certificate, this could easily be bypassed.
 
-- *Include a plan for further assessment or testing, if required*
+**Vulnerability Fix:**
+
+- Splunk properly configured for logging, capturing, alerting, etc..
+- Regularly update to the latest version.
+- Limit access to trusted users only.
+
+**Severity**: High
 
 <br>
 
@@ -76,7 +130,16 @@
 
 <br>
 
+### **Resources**
+
+- [Nmap](https://nmap.org/)
+- [Hydra](https://www.kali.org/tools/hydra/)
+- [HackTricks](https://book.hacktricks.xyz/welcome/readme)
+
+<br>
+
 ### Revisions
 
 - Created 9/11/2023 1720hrs. David Siebert
 - Updated 9/12/2023 Raphael Chookagian
+- Updated 9/13/2023 Raphael Chookagian
