@@ -1,4 +1,3 @@
-
 <p style="text-align: right">
 September 11, 2023</p>
 
@@ -9,33 +8,41 @@ September 11, 2023</p>
 ## **Penetration Test Report for SimCorp**
 
 [Google_Docs_Report](https://docs.google.com/document/d/1CDvXPxfJEOHXxPF0aDLlPLerwZEV6g_lDtjprG_z0RI/edit?usp=sharing)
+
 <br>
 
 <br>
 
 **Introduction**
 
-The penetration test report for SimCorp contains all efforts that were conducted as part of an authorized and contracted penetration test of SimCorp and SimCorp networks and systems.
-
-<br>
+Welcome to the comprehensive penetration test report for SimCorp. This document encapsulates the exhaustive efforts undertaken by ATAQUE Security in evaluating the security posture of SimCorp's networks and systems. All activities detailed herein were performed under authorized and contractual conditions.
 
 **Objective**
 
-The objective of this assessment is to perform an internal penetration test against the SimCorp network. ATAQUE Security is tasked with the testing, auditing and reporting of this penetration test. The team has been given guidelines and parameters for this given test. All testing, auditing and reporting will be only on given parameters.
+The focal point of this assessment revolves around executing an internal penetration test targeting SimCorp's internal network. ATAQUE Security is responsible for the complete lifecycle of this assessment - from initial testing and auditing to the final reporting. We strictly adhered to the established guidelines and parameters, ensuring a controlled yet robust evaluation environment.
 
-* Perform enumeration and exploitation against a target system within the context of a pentest
+Key Task:
 
-<br>
+* Enumerate and exploit target systems within the boundaries of a penetration test.
 
 **High-Level Summary**
 
-ATAQUE Security was tasked with performing an internal penetration test against the target. Overall objective was to evaluate the network, identify systems, and exploit flaws while reporting the findings back to Offensive Security.
+Tasked with a crucial mission, ATAQUE Security embarked on an internal penetration test aimed at SimCorp's infrastructure. The primary goal was to simulate potential adversarial actions: mapping the network, identifying connected systems, exploiting detected vulnerabilities, and then channeling these findings to inform defensive measures.
 
-When performing the internal penetration test, there were several alarming vulnerabilities that were identified on the target(s). When performing the attacks, I was able to gain access to databases, file share, and servers, primarily due to outdated patches and poor security configurations.
+Key Outcomes:
+
+* Vulnerabilities Unearthed: Throughout the penetration test, several critical vulnerabilities came to light.
+
+* Access Gained: Successful exploitation led to unauthorized access to multiple assets, including databases, file shares, and servers.
+
+* Root Causes: A significant portion of the vulnerabilities could be attributed to outdated software patches and suboptimal security configurations.
+
+As we progress through the report, each target will be examined in detail, shedding light on specific vulnerabilities, exploitation methods, and recommended remediation steps. It is our hope that this report serves not just as a record of findings but as a roadmap for fortifying SimCorp's digital assets.
 
 <br>
+<br>
 
-Open Ports from standard Nmap scan:
+## Open Ports from standard Nmap scan
 
 <table>
   <tr>
@@ -87,6 +94,8 @@ Open Ports from standard Nmap scan:
    </td>
   </tr>
 </table>
+
+<br>
 
 <table>
   <tr>
@@ -186,11 +195,13 @@ The penetration testing portions of the assessment focus heavily on gaining acce
 * **System IP: 10.0.0.206**
 
 <br>
+<br>
 
 **Service Enumeration**
 
 The service enumeration portion of a penetration test focuses on gathering information about what services are alive on a system or systems. This is valuable for an attacker as it provides detailed information on potential attack vectors into a system. Understanding what applications are running on the system gives an attacker needed information before performing the actual penetration test.  In some cases, some ports may not be listed.
 
+<br>
 <br>
 
 **Nmap scan report for 10.0.0.74**
@@ -366,6 +377,7 @@ The service enumeration portion of a penetration test focuses on gathering infor
 </table>
 
 <br>
+<br>
 
 **Nmap scan report for 10.0.0.82**
 
@@ -530,6 +542,7 @@ The service enumeration portion of a penetration test focuses on gathering infor
 </table>
 
 <br>
+<br>
 
 **Nmap scan report for 10.0.0.123**
 
@@ -593,6 +606,7 @@ The service enumeration portion of a penetration test focuses on gathering infor
   </tr>
 </table>
 
+<br>
 <br>
 
 **Nmap scan report for 10.0.0.126**
@@ -768,6 +782,7 @@ The service enumeration portion of a penetration test focuses on gathering infor
 </table>
 
 <br>
+<br>
 
 **Nmap scan report for 10.0.0.175**
 
@@ -821,6 +836,7 @@ The service enumeration portion of a penetration test focuses on gathering infor
   </tr>
 </table>
 
+<br>
 <br>
 
 **Nmap scan report for 10.0.0.197**
@@ -895,6 +911,7 @@ The service enumeration portion of a penetration test focuses on gathering infor
   </tr>
 </table>
 
+<br>
 <br>
 
 **Nmap scan report for 10.0.0.206**
