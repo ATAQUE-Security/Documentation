@@ -62,5 +62,5 @@ This repository contains all documentation related to this project,  including t
 | Presentations | Project Management | Repositories |
 |:----------------------:|:-----------------------:|:----------------------:|
 | [Slideshow Presentation](https://docs.google.com/presentation/d/1U0U4HkPjTmjLndgIuii9MQT_2FryvEBxZkBfMfatCgU/edit?usp=sharing) | [Trello Board](https://trello.com/b/q4cb2rJl/401d8rt1) | [Documentation](https://github.com/ATAQUE-Security/Documentation) |
-| [Video]() |:--------------:| [Presentations](https://github.com/ATAQUE-Security/Presentations) |
-|:--------------:|:--------------:| [Scripts](https://github.com/ATAQUE-Security/Scripts) |
+| [Video]() || [Presentations](https://github.com/ATAQUE-Security/Presentations) |
+||| [Scripts](https://github.com/ATAQUE-Security/Scripts) |
