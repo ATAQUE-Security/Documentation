@@ -27,17 +27,15 @@ This repository contains all documentation related to this project,  including t
 
 ### Topology
 
-
 <img src="./assets/BaseTop.png" width="550">
 
 <img src="./assets/NmapTop.png" width="550">
 
 <img src="./assets/RevisedTop.png" width="550">
 
-
 ### Presentations
 
-[Slideshow Presentation]()
+[Slideshow Presentation](https://docs.google.com/presentation/d/1U0U4HkPjTmjLndgIuii9MQT_2FryvEBxZkBfMfatCgU/edit?usp=sharing)
 
 [Video]()
 
