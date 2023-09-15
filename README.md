@@ -16,7 +16,7 @@ This repository contains all documentation related to this project,  including t
 
 <br>
 
-## Documentation
+### Documentation
 
 | [SOPs](./SOPs/) |
 |:-----------------------:|
@@ -32,6 +32,8 @@ This repository contains all documentation related to this project,  including t
 <img src="./assets/NmapTop.png" width="550">
 
 <img src="./assets/RevisedTop.png" width="550">
+
+<br>
 
 ### Presentations
 
