@@ -1,7 +1,7 @@
 <p style="text-align: right">
 09/13/23</p>
 
-<img src="./assets/ring.png" width="250">
+<img src="../assets/ring.png" width="250">
 
 ## **ATAQUE Penetration Test**
 
